@@ -60,7 +60,7 @@ export default {
       exercises: [
         {
           name: 'Hang SNATCH below + above knee (1RM of SN)',
-          type: 'percentage based',
+          type: 'Percentage based',
           sets: [
             {
               weight: 0.5,
@@ -119,7 +119,7 @@ export default {
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
+<style>
 .set {
   display: flex !important;
   padding: 10px;
