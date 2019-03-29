@@ -47,7 +47,7 @@
 </template>
 
 <script>
-import AddExercise from './subcomponents/AddExercise.vue'
+import AddExercise from './fragments/AddExercise.vue'
 
 export default {
   components: {
