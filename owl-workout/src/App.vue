@@ -1,6 +1,7 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
+    <h1>OWL Workout</h1>
+    <br>
     <router-view/>
   </div>
 </template>
