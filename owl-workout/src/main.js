@@ -3,8 +3,14 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+import Buefy from 'buefy'
+import 'buefy/dist/buefy.css'
+
+import AddExercise from './components/subcomponents/AddExercise.vue'
 
 Vue.config.productionTip = false
+Vue.use(Buefy)
+Vue.component('add-exercise', AddExercise)
 
 /* eslint-disable no-new */
 new Vue({
