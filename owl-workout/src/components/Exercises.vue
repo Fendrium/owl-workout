@@ -1,5 +1,6 @@
 <template>
   <div class="week columns box">
+    <h1 class="title is-primary">Week</h1>
     <div
       class="day column"
       v-for="(day, index) in days"
