@@ -1,8 +1,8 @@
 <template>
   <div id="app">
-    <h1>OWL Workout</h1>
+    <h1 class="title has-text-primary">OWL Workout</h1>
     <br>
-    <router-view/>
+    <router-view />
   </div>
 </template>
 
@@ -14,7 +14,7 @@ export default {
 
 <style>
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  font-family: "Avenir", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
